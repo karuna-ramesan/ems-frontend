@@ -1,0 +1,49 @@
+
+
+
+
+
+    REACT - FRONT END TECHNOLOGY (Framework)
+------------------------------------------------
+
+
+         Commends
+       -------------
+
+
+  1. create project: npx create-react-app project-name
+  2. to run project: npm start
+  3. install Material ui: 
+
+
+         features
+       -------------
+ 1.Component Based Approach  
+ 2.JSX  (Javascript XML)
+ 3.Virtual DOM
+ 4.Fast
+ 5.Front End differences
+
+
+
+        Angular                               React                              vue
+        -------------------------------------------------------------------------------
+    1.Framework                          library                             Framework
+        -google                            -facebook                            -open source
+    2.Typescript                         Javascript                           JavaScript
+    3.Real DOM                           Virtual DOM                           Virtual DOM
+    4.Two way binding                    One way binding                       Two way binding
+
+    5. State: Used to store data, and share it other Component (parent to child)
+          -create a state using useState
+        syntax:const [statename,function-name to change the state of the value]=useState('')
+          -to update state:using state update function where pass the updated value as argument
+          -to share state from component to component(parent to child): using props
+
+    7. Components: 2 types (create js file with file name start with capital letter)
+           - Class based /stateful Component:
+           - Functional based / stateless Component:
+    8. React Hooks
+         -useState(): to create user defined state in functional component
+         -useEffect(): allow you to perform side effect in your componenet
+
